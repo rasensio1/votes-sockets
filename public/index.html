@@ -2,16 +2,32 @@
 <html>
 <head>
     <title>Ask the Audience</title>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
 </head>
 <body>
-  <h1>The index</h1>
-  <div id="connection-count"></div>
-  <div id="status-message"></div>
-  <div id="choices">
-      <button>A</buddon>
-      <button>B</buddon>
-      <button>C</buddon>
-      <button>D</buddon>
+  <div class="container">
+      <div id="title-text">
+          <h2>Vote Vote Vote!!</h2>
+      </div>
+      <div id="connection-count"></div>
+      <div id="status-message"></div>
+      <div id="info-text">
+          <h3>Use your imagination to vote for something. It's something really important!</h3>
+      </div>
+      <div id="choices">
+          <button id='spaced' class='btn btn-primary spaced'>A</buddon>
+          <button id='spaced' class='btn btn-primary spaced'>B</buddon>
+          <button id='spaced' class='btn btn-primary spaced'>C</buddon>
+          <button id='spaced' class='btn btn-primary spaced'>D</buddon>
+      </div>
+      <div id="my-vote"></div>
+      <div id="votes-cast">
+        <div id="A-votes"></div>
+        <div id="B-votes"></div>
+        <div id="C-votes"></div>
+        <div id="D-votes"></div>
+      </div>
   </div>
 
     <!-- Make sure your JS is at the bottom of the body! -->
